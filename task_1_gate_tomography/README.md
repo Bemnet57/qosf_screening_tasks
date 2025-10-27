@@ -170,6 +170,7 @@ Compare the full 3-qubit unitary matrices of both circuits for equivalence up to
 
 ### 🖥️ How to Run
 1️⃣ Setup  
+```bash
 git clone https://github.com/Bemnet57/quantum-gate-tomography-qofs.git  
 cd quantum-gate-tomography-qofs  
 python -m venv qc-env
@@ -179,10 +180,11 @@ qc-env\Scripts\activate
 # Linux/macOS:
 source qc-env/bin/activate  
 pip install -r requirements.txt
-
+```
 2️⃣ Run script
+```bash
 python toffoli_decomp.py
-
+```
 
 You should see:
 
@@ -195,6 +197,7 @@ A text-based Toffoli decomposition containing multiple u3 and cx gates
 The final check confirming the decomposed circuit and built-in Toffoli are equivalent
 
 ### 📊 Sample Output (abridged)
+```bash
 === Single-qubit checks ===
 Is V^2 equal to X up to global phase? True
 Is Vdg ≈ V† ? True
@@ -204,7 +207,7 @@ u3(1.570796, -1.570796, 1.570796) on qubits [2]
 u3(1.570796, 1.570796, -1.570796) on qubits [2]
 ...
 Are the transpiled unitary and built-in CCX equal up to a global phase? True
-
+```
 ### 📚 Key Takeaways
 
 Any unitary operation can be expressed as a combination of a universal set such as {U3, CX}.
