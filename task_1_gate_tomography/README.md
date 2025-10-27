@@ -170,7 +170,7 @@ Compare the full 3-qubit unitary matrices of both circuits for equivalence up to
 
 ### 🖥️ How to Run
 1️⃣ Setup
-git clone https://github.com/<your-username>/quantum-gate-tomography-qofs.git
+git clone https://github.com/<Bemnet57>/quantum-gate-tomography-qofs.git
 cd quantum-gate-tomography-qofs
 python -m venv qc-env
 # activate virtualenv:
@@ -223,6 +223,6 @@ IBM Quantum documentation for U3
 
 ### 👨🏽‍💻 Author
 
-Bemnet Asseged
-QOFS Quantum Mentorship Screening Submission
+Bemnet Asseged  
+QOFS Quantum Mentorship Screening Submission  
 (October 2025)
