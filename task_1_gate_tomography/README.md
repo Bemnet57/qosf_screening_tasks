@@ -188,13 +188,13 @@ python toffoli_decomp.py
 
 You should see:
 
-The printed matrices for V and Vdg
+- The printed matrices for V and Vdg
 
-A confirmation that V^2 = X (up to global phase)
+- A confirmation that V^2 = X (up to global phase)
 
-A text-based Toffoli decomposition containing multiple u3 and cx gates
+- A text-based Toffoli decomposition containing multiple u3 and cx gates
 
-The final check confirming the decomposed circuit and built-in Toffoli are equivalent
+- The final check confirming the decomposed circuit and built-in Toffoli are equivalent
 
 ### 📊 Sample Output (abridged)
 ```bash
