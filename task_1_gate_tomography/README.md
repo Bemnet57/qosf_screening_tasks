@@ -169,9 +169,9 @@ Build a Toffoli circuit (ccx) and transpile it into only {u3, cx} gates to check
 Compare the full 3-qubit unitary matrices of both circuits for equivalence up to a global phase.
 
 ### 🖥️ How to Run
-1️⃣ Setup
-git clone https://github.com/Bemnet57/quantum-gate-tomography-qofs.git
-cd quantum-gate-tomography-qofs
+1️⃣ Setup  
+git clone https://github.com/Bemnet57/quantum-gate-tomography-qofs.git  
+cd quantum-gate-tomography-qofs  
 python -m venv qc-env
 # activate virtualenv:
 # Windows:
