@@ -170,14 +170,14 @@ Compare the full 3-qubit unitary matrices of both circuits for equivalence up to
 
 ### 🖥️ How to Run
 1️⃣ Setup
-git clone https://github.com/<Bemnet57>/quantum-gate-tomography-qofs.git
+git clone https://github.com/Bemnet57/quantum-gate-tomography-qofs.git
 cd quantum-gate-tomography-qofs
 python -m venv qc-env
 # activate virtualenv:
 # Windows:
 qc-env\Scripts\activate
 # Linux/macOS:
-source qc-env/bin/activate
+source qc-env/bin/activate  
 pip install -r requirements.txt
 
 2️⃣ Run script
