@@ -1,15 +1,15 @@
-Gate Tomography — Toffoli Gate Decomposition
+# Gate Tomography — Toffoli Gate Decomposition
 
-QOFS Quantum Computing Mentorship Screening Task
+## QOFS Quantum Computing Mentorship Screening Task 1
 
-📘 Task Description
+### 📘 Task Description
 
 The goal is to find the parameters of two U3(θ, φ, λ) gates such that the following circuit is equivalent to a Toffoli (CCX) gate.
 Each U3 represents a single-qubit rotation used in the decomposition of a Toffoli into basic gates (U3 and CX).
 
 The task tests understanding of universal gate sets and circuit equivalence.
 
-🧮 Theoretical Background
+### 🧮 Theoretical Background
 
 In Qiskit,
 
@@ -107,7 +107,7 @@ cos(
 A Toffoli gate (CCX) can be implemented using controlled-√X and controlled-√X† gates, alongside CNOTs and phase rotations.
 Thus, the task reduces to finding the parameters of √X and √X† in the U3 form.
 
-✅ Derived Parameters
+### ✅ Derived Parameters
 
 The two gates are:
 
@@ -137,7 +137,7 @@ V
 
 up to a global phase.
 
-🧠 Verification Approach
+### 🧠 Verification Approach
 
 A Python script (toffoli_decomp.py) was written using Qiskit and NumPy to:
 
@@ -168,7 +168,7 @@ Build a Toffoli circuit (ccx) and transpile it into only {u3, cx} gates to check
 
 Compare the full 3-qubit unitary matrices of both circuits for equivalence up to a global phase.
 
-🖥️ How to Run
+### 🖥️ How to Run
 1️⃣ Setup
 git clone https://github.com/<your-username>/quantum-gate-tomography-qofs.git
 cd quantum-gate-tomography-qofs
@@ -194,7 +194,7 @@ A text-based Toffoli decomposition containing multiple u3 and cx gates
 
 The final check confirming the decomposed circuit and built-in Toffoli are equivalent
 
-📊 Sample Output (abridged)
+### 📊 Sample Output (abridged)
 === Single-qubit checks ===
 Is V^2 equal to X up to global phase? True
 Is Vdg ≈ V† ? True
@@ -205,7 +205,7 @@ u3(1.570796, 1.570796, -1.570796) on qubits [2]
 ...
 Are the transpiled unitary and built-in CCX equal up to a global phase? True
 
-📚 Key Takeaways
+### 📚 Key Takeaways
 
 Any unitary operation can be expressed as a combination of a universal set such as {U3, CX}.
 
@@ -213,7 +213,7 @@ The Toffoli gate’s equivalence relies on decomposing multi-controlled operatio
 
 U3(π/2, -π/2, π/2) and its adjoint are fundamental in this decomposition as the √X building blocks.
 
-🧾 References
+### 🧾 References
 
 Qiskit Textbook — Universal single-qubit gates
 
@@ -221,7 +221,7 @@ Nielsen & Chuang, Quantum Computation and Quantum Information (Chapter 4)
 
 IBM Quantum documentation for U3
 
-👨🏽‍💻 Author
+### 👨🏽‍💻 Author
 
 Bemnet Asseged
 QOFS Quantum Mentorship Screening Submission
